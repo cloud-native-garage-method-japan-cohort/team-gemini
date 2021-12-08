@@ -70,12 +70,12 @@ spec:
           value: "$(params.image-repo):latest"
         - name: CONTEXT
           value: "webapp"
-    - name: kustomize-build
+    - name: kustomize-build-frontend
       runAfter:
         - build-image
       taskRef:
         kind: Task
-        name: kustomize-build
+        name: kustomize-build-frontend
       workspaces:
         - name: source
           workspace: pipeline-shared-data
@@ -83,12 +83,12 @@ spec:
         - name: image-with-tag
           #value: "quay.io/dotnsf/express-sample-app=$(params.image-repo):$(tasks.clone-repository.results.commit)"
           value: "quay.io/yu_yamanaka_ibm/team-gemini-frontend=$(params.image-repo):latest"
-    - name: test-deploy
+    - name: test-deploy-frontend
       runAfter:
-        - kustomize-build
+        - kustomize-build-frontend
       taskRef:
         kind: Task
-        name: test-deploy
+        name: test-deploy-frontend
       workspaces:
         - name: source
           workspace: pipeline-shared-data

@@ -10,6 +10,6 @@ spec:
     termination: edge
   to:
      kind: Service
-     name: team-gemini
+     name: team-gemini-frontend
      weight: 100
   wildcardPolicy: None

@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  name: kustomize-build
+  name: kustomize-build-frontend
 spec:
   params: 
     - name: image-with-tag
