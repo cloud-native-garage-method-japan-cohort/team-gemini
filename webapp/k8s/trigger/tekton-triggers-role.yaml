@@ -1,0 +1,83 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: tekton-triggers-role
+rules:
+  - apiGroups:
+      - triggers.tekton.dev
+#      - tekton.dev
+    resources:
+      - eventlisteners
+      - triggerbindings
+      - triggertemplates
+      - triggers
+#      - clusterinterceptors
+#      - clusterinterceptorbindings
+#      - clustertriggerbindings
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups:
+      - tekton.dev
+    resources:
+      - pipelineruns
+      - pipelineresources
+    verbs:
+      - get
+      - list
+      - create
+  - apiGroups:
+      - ""
+    resources:
+      - configmaps
+    verbs:
+      - list
+      - watch
+      - get
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: tekton-triggers-rolebinding
+subjects:
+  - kind: ServiceAccount
+    name: tekton-triggers-sa
+    namespace: team-gemini
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: tekton-triggers-role
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: tekron-triggers-role-cl
+  namespace: team-gemini
+rules:
+  - apiGroups:
+      - triggers.tekton.dev
+    resources:
+      - triggerbindings
+      - clusterinterceptors
+    verbs:
+      - get
+      - list
+      - watch
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: tekron-triggers-rolebinding-cl
+  namespace: team-gemini
+subjects:
+  - kind: ServiceAccount
+    name: tekton-triggers-sa
+    namespace: team-gemini
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: tekton-triggers-role-cl
+
+
+
