@@ -17,7 +17,10 @@ import {
   FormControl,
   Select,
   MenuItem,
-  CircularProgress
+  CircularProgress,
+  Dialog,
+  DialogTitle,
+  Link
 } from "@material-ui/core";
 import SearchIcon from '@material-ui/icons/Search';
 
@@ -73,11 +76,13 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
   },
   cardTitle: {
-    color:'#0066ff', 
-    textDecoration: 'underline', 
+    marginBottom: '10px',
+    fontSize: '16px',
     fontWeight: 'bold',
-    paddingBottom: '10px'
   },
+  detailText: {
+    padding: '16px',
+  }
 }));
 
 
@@ -88,6 +93,7 @@ const Top = () => {
   const [hasSearched, setHasSearched] = useState(false);
   const [searchedText, setSearchedText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
+  const [isDetailOpen, setIsDetailOpen] = useState(false);
 
   const classes = useStyles();
 
@@ -104,6 +110,9 @@ const Top = () => {
         setSearchResults([]);
       });
   }
+
+  const openDetailDialog = () => setIsDetailOpen(true);
+  const closeDetailDialog = () => setIsDetailOpen(false);
 
   const sampleItems = Array.from(Array(20).keys()).map(n => 
     <Grid item xs={12} sm={6} md={3} key={n}>
@@ -155,29 +164,36 @@ const Top = () => {
     return searchResults.map(e => {
       const { title, description, filename} = e;
       return (
-      <Grid item xs={12} sm={6} md={3} key={keys.index++}>
-      <Card sx={{ minWidth: 575 }}>
-        <CardContent style={{textAlign: "left"}}>
-          <Typography variant="h7" component="div" className={classes.cardTitle}>
-           {title}
-          </Typography>
-          <Typography variant="body2">
-           {`${description.substring(0, 100)}...`}
-          </Typography>
-        </CardContent>
-        <CardActions>
-            <Button 
-              size="small"
-              onClick={(e) => {
-                e.preventDefault();
-                window.open(`https://github.com/cloud-native-garage-method-japan-cohort/team-gemini/blob/master/resources/${filename}`, '_blank');
-                }}
-            >
-                Open Document
-            </Button>
-        </CardActions>
-      </Card>
-    </Grid>)
+        <>
+          <Grid item xs={12} sm={6} md={3} key={keys.index++}>
+            <Card sx={{ minWidth: 575 }}>
+              <CardContent style={{textAlign: "left"}}>
+                <Link component="button" underline="always" className={classes.cardTitle} onClick={openDetailDialog}>
+                  {title}
+                </Link>
+                <Typography variant="body2">
+                  {`${description.substring(0, 100)}...`}
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button 
+                  size="small"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.open(`https://github.com/cloud-native-garage-method-japan-cohort/team-gemini/blob/master/resources/${filename}`, '_blank');
+                  }}
+                >
+                  Open Document
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Dialog onClose={closeDetailDialog} aria-labelledby="detail-dialog" open={isDetailOpen}>
+            <DialogTitle id="detail-dialog">{title}</DialogTitle>
+            <Typography variant="body1" component="p" className={classes.detailText}>{description}</Typography>
+          </Dialog>
+        </>
+      )
     });
   }
 
@@ -189,7 +205,7 @@ const Top = () => {
             <MenuItem value={0}>カテゴリを選択</MenuItem>
             {discoveryCategories.map(([id, label]) => (
               <MenuItem value={id}>{label}</MenuItem>
-              ))}
+            ))}
           </Select>
         </FormControl>
         <Paper className={classes.inputContainer}>
