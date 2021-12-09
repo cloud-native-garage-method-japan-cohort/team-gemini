@@ -1,7 +1,7 @@
 apiVersion: triggers.tekton.dev/v1alpha1
 kind: TriggerTemplate
 metadata:
-  name: team-gemini-pipeline-triggertemplate
+  name: team-gemini-triggertemplate
 spec:
   resourcetemplates:
     - apiVersion: tekton.dev/v1beta1
