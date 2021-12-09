@@ -1,0 +1,1323 @@
+{
+  "matching_results": 2,
+  "session_token": "1_2IR10G7LJm8dRJg1_QwE8qXza9",
+  "passages": [
+    {
+      "document_id": "bf2690df1e65fe98f38f853302045904",
+      "passage_score": 7.61395955816466,
+      "passage_text": "新型コロナウイルス感染症 (2019 年 ) 出典 : フリー百科事典『ウィキペディア（ Wikipedia ）』 ナビゲーションに移動 検索に移動 「新型コロナウイルス感染症」はこの項目へ転送されています。その他の用法に ついては「コロナウイルス感染症」をご覧ください。 この項目では、新型コロナウイルス感染症 (COVID-19) 及びその医療対策につい て説明しています。  原因となるウイルス (SARS-CoV-2) については「 SARS コロナウイルス 2 」 をご覧ください。",
+      "start_offset": 0,
+      "end_offset": 247,
+      "field": "text"
+    },
+    {
+      "document_id": "b22c0ac457df64887dc49f3242a6ddee",
+      "passage_score": 7.1081705430895985,
+      "passage_text": "$: \" コロナビール \" – ニュース · 書籍 · スカラー · CiNii · J-STAGE · NDL · dlib.jp · ジャ パンサーチ · TWL （ 2016 年 5 月） コロナ・エキストラ $^{[1]}$（スペイン語： Corona Extra ）は、モデーロ社（ Grupo Modelo ）が 製造するメキシコのビールの銘柄。コロナ、コローナと corona の日本語転写は複数あ るが、本記事では固有名称以外はアンハイザー・ブッシュ・インベブ・ジャパンが定め る「コロナ」と記載する。 目次  1 概要  2 ラインナップ o 2.1 旧ラインナップ  3 エピソード  4 脚注  5 外部リンク 概要 [ 編集 ] 米国のビール同様、軽い味わいが特徴である。",
+      "start_offset": 130,
+      "end_offset": 483,
+      "field": "text"
+    },
+    {
+      "document_id": "b22c0ac457df64887dc49f3242a6ddee",
+      "passage_score": 7.1081705430895985,
+      "passage_text": "また、 8 分の 1 程度に櫛形 切りしたライムを瓶の中に押し込んで風味を付けて飲む方法もある。過去には「ライム がなければコロナを飲むな」というキャッチコピーが広告に使われたことがある。 ラインナップ [ 編集 ] アルコール度数はすべて 4.5% 。  コロナ・エキストラ ボトル (355ml)  コロナ・エキストラ 缶 (355ml)  コロニータ・エキストラ 小瓶 (207ml) 旧ラインナップ [ 編集 ]  コローナ・エクストラ (355ml 、 4.6%)  コロニータ (207ml 、 4.6% 中身は上記コローナ・エクストラと同一）  コローナ・ライト (355ml 、 3.8%) エピソード [ 編集 ] 2020 年 、前年から中国 湖北省 武漢市 で発生した新型コロナウイルスによる感染症が猛 威を振るう中「コロナビール」のネット上での検索数が急増した。",
+      "start_offset": 584,
+      "end_offset": 983,
+      "field": "text"
+    },
+    {
+      "document_id": "bf2690df1e65fe98f38f853302045904",
+      "passage_score": 7.090340683867801,
+      "passage_text": " 原因となるウイルス (SARS-CoV-2) については「 SARS コロナウイルス 2 」 をご覧ください。  当感染症の世界的な流行事態については「新型コロナウイルス感染症の世 界的流行 (2019 年 -) 」をご覧ください。  国・地域ごとの流行状況については「国・地域毎の 2019 年コロナウイルス 感染症流行状況」をご覧ください。 Template‐ ノート : 最新の出来事 に、このページに関する意見があります。",
+      "start_offset": 190,
+      "end_offset": 409,
+      "field": "text"
+    },
+    {
+      "document_id": "bf2690df1e65fe98f38f853302045904",
+      "passage_score": 7.090340683867801,
+      "passage_text": "Template‐ ノート : 最新の出来事 に、このページに関する意見があります。 意見の要約： COVID-19 関連記事における最新の出来事テンプレートの大量・ 長期使用について この記事の項目名の英語名である「 COVID-19 」には以下のような表記揺れがありま す。  コヴィッド 19  コビッド 19 2019 年新型コロナウイルス感染症 2019 年新型コロナウイルス感染症の症状 症候学 発熱、咳嗽、呼吸困難 原因 SARS コロナウイルス 2 (SARS-CoV-2) 診断法 PCR 法 、 LAMP 法 、抗原検査 [ ウィキデータで編集 ] 新型コロナウイルスの構造 赤い突起 : スパイクタンパク (S) [1] 灰色の被膜がエンベロープ、主成分は脂質でアルコールや石鹸で破壊できる $^{[1]}$。",
+      "start_offset": 367,
+      "end_offset": 735,
+      "field": "text"
+    }
+  ],
+  "results": [
+    {
+      "id": "bf2690df1e65fe98f38f853302045904",
+      "result_metadata": {
+        "confidence": 0.09376515587984229,
+        "score": 0.39841443
+      },
+      "extracted_metadata": {
+        "sha1": "eaa2d306925a997e10b83667f597faefb2422272",
+        "author": ["Makoto Kogoh"],
+        "filename": "新型コロナウイルス感染症 (2019年) - Wikipedia.doc",
+        "file_type": "word",
+        "title": "新型コロナウイルス感染症 (2019年) - Wikipedia"
+      },
+      "text": "新型コロナウイルス感染症 (2019 年 ) 出典 : フリー百科事典『ウィキペディア（ Wikipedia ）』 ナビゲーションに移動 検索に移動 「新型コロナウイルス感染症」はこの項目へ転送されています。その他の用法に ついては「コロナウイルス感染症」をご覧ください。 この項目では、新型コロナウイルス感染症 (COVID-19) 及びその医療対策につい て説明しています。  原因となるウイルス (SARS-CoV-2) については「 SARS コロナウイルス 2 」 をご覧ください。  当感染症の世界的な流行事態については「新型コロナウイルス感染症の世 界的流行 (2019 年 -) 」をご覧ください。  国・地域ごとの流行状況については「国・地域毎の 2019 年コロナウイルス 感染症流行状況」をご覧ください。 Template‐ ノート : 最新の出来事 に、このページに関する意見があります。 意見の要約： COVID-19 関連記事における最新の出来事テンプレートの大量・ 長期使用について この記事の項目名の英語名である「 COVID-19 」には以下のような表記揺れがありま す。  コヴィッド 19  コビッド 19 2019 年新型コロナウイルス感染症 2019 年新型コロナウイルス感染症の症状 症候学 発熱、咳嗽、呼吸困難 原因 SARS コロナウイルス 2 (SARS-CoV-2) 診断法 PCR 法 、 LAMP 法 、抗原検査 [ ウィキデータで編集 ] 新型コロナウイルスの構造 赤い突起 : スパイクタンパク (S) [1] 灰色の被膜がエンベロープ、主成分は脂質でアルコールや石鹸で破壊できる $^{[1]}$。 黄色の付着物 : エンベロープタンパク $^{[1]}$。 オレンジの付着物が膜タンパク質 $^{[1]}$。 2019 年に発生した新型コロナウイルス感染症（しんがたコロナウイルスかんせんしょ う、国際正式名称： COVID-19 $^{[2]}$）は、 SARS コロナウイルス 2 (SARS-CoV-2) [ 注 1] がヒト に感染することによって発症する気道感染症（ウイルス性の広義の風邪の一種 $^{[3]}$）であ る $^{[4]}$。多くの場合、無症状または風邪様症状を伴う軽症で自然治癒するが、重症では急 性呼吸窮迫症候群や敗血症、多臓器不全を伴う...",
+      "enriched_text": {
+        "entities": [
+          {
+            "count": 13,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "}$",
+            "confidence": 0.999648,
+            "relevance": 0.94858,
+            "type": "Money"
+          },
+          {
+            "count": 59,
+            "sentiment": {
+              "score": -0.635632,
+              "label": "negative"
+            },
+            "text": "19",
+            "confidence": 1,
+            "relevance": 0.879461,
+            "type": "Number"
+          },
+          {
+            "count": 10,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2019 年",
+            "confidence": 0.999999,
+            "relevance": 0.865019,
+            "type": "Date"
+          },
+          {
+            "count": 9,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "8.1",
+            "confidence": 0.999999,
+            "relevance": 0.821062,
+            "type": "Number"
+          },
+          {
+            "count": 11,
+            "sentiment": {
+              "score": -0.735762,
+              "label": "negative"
+            },
+            "text": "初 期",
+            "confidence": 0.994662,
+            "relevance": 0.748974,
+            "type": "Ordinal"
+          },
+          {
+            "count": 8,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "レ ム デ シ ビル",
+            "confidence": 0.973062,
+            "relevance": 0.500095,
+            "type": "Facility"
+          },
+          {
+            "count": 34,
+            "sentiment": {
+              "score": -0.614879,
+              "label": "negative"
+            },
+            "text": "日本",
+            "confidence": 1,
+            "relevance": 0.481574,
+            "type": "Location"
+          },
+          {
+            "count": 5,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2020 年 3 月",
+            "confidence": 0.999465,
+            "relevance": 0.477518,
+            "type": "Date"
+          },
+          {
+            "count": 6,
+            "sentiment": {
+              "score": -0.63664,
+              "label": "negative"
+            },
+            "text": "中 国",
+            "confidence": 0.975078,
+            "relevance": 0.440089,
+            "type": "Location"
+          },
+          {
+            "count": 33,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2",
+            "confidence": 1,
+            "relevance": 0.439938,
+            "type": "Number"
+          },
+          {
+            "count": 4,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "11.1",
+            "confidence": 0.9984,
+            "relevance": 0.421076,
+            "type": "Number"
+          },
+          {
+            "count": 7,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "シ クレ ソニ ド",
+            "confidence": 0.98025,
+            "relevance": 0.418972,
+            "type": "Person"
+          },
+          {
+            "count": 9,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "十 分",
+            "confidence": 0.998844,
+            "relevance": 0.377707,
+            "type": "Duration"
+          },
+          {
+            "count": 6,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$",
+            "confidence": 1,
+            "relevance": 0.369791,
+            "type": "Money"
+          },
+          {
+            "count": 6,
+            "sentiment": {
+              "score": -0.73287,
+              "label": "negative"
+            },
+            "text": "日本感染症学 会",
+            "confidence": 0.945186,
+            "relevance": 0.365817,
+            "type": "Organization"
+          },
+          {
+            "count": 5,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "米 国",
+            "confidence": 0.999002,
+            "relevance": 0.347449,
+            "type": "Location"
+          },
+          {
+            "count": 8,
+            "sentiment": {
+              "score": -0.701859,
+              "label": "negative"
+            },
+            "text": "チ ー ム",
+            "confidence": 0.99607,
+            "relevance": 0.338929,
+            "type": "Person"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "5.3",
+            "confidence": 0.992,
+            "relevance": 0.33622,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "5.4",
+            "confidence": 0.992,
+            "relevance": 0.335778,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "6.2",
+            "confidence": 0.992,
+            "relevance": 0.329362,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "6.3",
+            "confidence": 0.992,
+            "relevance": 0.328949,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "11.2",
+            "confidence": 0.992,
+            "relevance": 0.325699,
+            "type": "Number"
+          },
+          {
+            "count": 5,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[182]}$",
+            "confidence": 0.921443,
+            "relevance": 0.309873,
+            "type": "Money"
+          },
+          {
+            "count": 5,
+            "sentiment": {
+              "score": -0.387547,
+              "label": "negative"
+            },
+            "text": "一 部",
+            "confidence": 0.99968,
+            "relevance": 0.284631,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "90]}$",
+            "confidence": 0.77699,
+            "relevance": 0.284567,
+            "type": "Money"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2020 年",
+            "confidence": 0.999254,
+            "relevance": 0.280357,
+            "type": "Date"
+          },
+          {
+            "count": 4,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "厚 生 労働省",
+            "confidence": 0.895657,
+            "relevance": 0.274956,
+            "type": "Organization"
+          },
+          {
+            "count": 5,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "3 例",
+            "confidence": 0.99968,
+            "relevance": 0.264733,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2019",
+            "confidence": 0.999547,
+            "relevance": 0.260843,
+            "type": "Date"
+          },
+          {
+            "count": 4,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "3.5",
+            "confidence": 0.9984,
+            "relevance": 0.260323,
+            "type": "Number"
+          },
+          {
+            "count": 4,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "中 国政府",
+            "confidence": 0.710698,
+            "relevance": 0.259679,
+            "type": "Organization"
+          },
+          {
+            "count": 15,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "1",
+            "confidence": 1,
+            "relevance": 0.245361,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[1]}$",
+            "confidence": 0.497152,
+            "relevance": 0.238492,
+            "type": "Money"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[6]}$",
+            "confidence": 0.567491,
+            "relevance": 0.236942,
+            "type": "Money"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[13]}$",
+            "confidence": 0.574277,
+            "relevance": 0.233652,
+            "type": "Money"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "5.5",
+            "confidence": 0.96,
+            "relevance": 0.230991,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "5.6",
+            "confidence": 0.96,
+            "relevance": 0.230794,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "5.7",
+            "confidence": 0.96,
+            "relevance": 0.230589,
+            "type": "Number"
+          },
+          {
+            "count": 4,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2 つ",
+            "confidence": 0.9984,
+            "relevance": 0.23018,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "5.11",
+            "confidence": 0.96,
+            "relevance": 0.230063,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2.1",
+            "confidence": 0.992,
+            "relevance": 0.229949,
+            "type": "Number"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "フ ァ ビ ピラ ビル",
+            "confidence": 0.642533,
+            "relevance": 0.226894,
+            "type": "Facility"
+          },
+          {
+            "count": 3,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "韓 国",
+            "confidence": 0.901473,
+            "relevance": 0.219032,
+            "type": "Location"
+          },
+          {
+            "count": 15,
+            "sentiment": {
+              "score": -0.704605,
+              "label": "negative"
+            },
+            "text": "一",
+            "confidence": 1,
+            "relevance": 0.218303,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": -0.870558,
+              "label": "negative"
+            },
+            "text": "11.4",
+            "confidence": 0.96,
+            "relevance": 0.216838,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "武漢市",
+            "confidence": 0.925804,
+            "relevance": 0.216565,
+            "type": "Location"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[69]}$",
+            "confidence": 0.564087,
+            "relevance": 0.207188,
+            "type": "Money"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": -0.735762,
+              "label": "negative"
+            },
+            "text": "約 1 週 間",
+            "confidence": 0.748512,
+            "relevance": 0.204179,
+            "type": "Duration"
+          },
+          {
+            "count": 7,
+            "sentiment": {
+              "score": -0.672657,
+              "label": "negative"
+            },
+            "text": "5",
+            "confidence": 0.999987,
+            "relevance": 0.202503,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "現 在",
+            "confidence": 0.369028,
+            "relevance": 0.201939,
+            "type": "Date"
+          }
+        ],
+        "sentiment": {
+          "document": {
+            "score": -0.640782,
+            "label": "negative"
+          }
+        },
+        "concepts": [
+          {
+            "text": "100",
+            "relevance": 0.912373,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/100"
+          },
+          {
+            "text": "ウイルス",
+            "relevance": 0.887978,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/ウイルス"
+          },
+          {
+            "text": "19",
+            "relevance": 0.82072,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/19"
+          },
+          {
+            "text": "英語",
+            "relevance": 0.725697,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/英語"
+          },
+          {
+            "text": "素数",
+            "relevance": 0.702092,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/素数"
+          }
+        ],
+        "categories": [
+          {
+            "score": 0.980895,
+            "label": "/health and fitness/disease"
+          },
+          {
+            "score": 0.921589,
+            "label": "/health and fitness/disease/epidemic"
+          },
+          {
+            "score": 0.879373,
+            "label": "/health and fitness/disease/cold and flu"
+          }
+        ],
+        "relations": []
+      },
+      "highlight": {
+        "extracted_metadata.filename": [
+          "新型<em>コロナ</em>ウイルス感染症 (2019年) - Wikipedia.doc"
+        ],
+        "extracted_metadata.title": [
+          "新型<em>コロナ</em>ウイルス感染症 (2019年) - Wikipedia"
+        ],
+        "text": [
+          "新型<em>コロナ</em>ウイルス感染症 (2019 年 ) 出典 : フリー百科事典『ウィキペディア（ Wikipedia ）』 ナビゲーションに移動 検索に移動 「新型<em>コロナ</em>ウイルス感染症」はこの項目へ転送されています。その他の用法に ついては「<em>コロナ</em>ウイルス感染症」をご覧ください。 この項目では、新型<em>コロナ</em>ウイルス感染症 (COVID-19) 及びその医療対策につい て説明しています。  原因となるウイルス (SARS-CoV-2) については「 SARS <em>コロナ</em>ウイルス 2 」 をご覧ください。  当感染症の世界的な流行事態については「新型<em>コロナ</em>ウイルス感染症の世 界的流行 (2019 年 -) 」をご覧ください。  国・地域ごとの流行状況については「国・地域毎の 2019 年<em>コロナ</em>ウイルス 感染症流行状況」をご覧ください。",
+          ". ^ 新型<em>コロナ</em>に 有 効 ？",
+          "コ モ ン ズ で メ デ ィ ア （ カ テ ゴ リ ） ウ ィ キ ニ ュ ー ス の ニ ュ ー ス  SARS <em>コロナ</em>ウイルス 2 (SARS-CoV-2/ 新型<em>コロナ</em>ウイルス )  COVID-19 の検査  COVID-19 ワ ク チ ン  COVID-19 アプリ （感染 経路 ・行 動 履歴 特定アプリ）  <em>コロナ</em>ウイルス・パンデ ミ ック・ドリー ム  新型<em>コロナ</em>ウイルス感染症の世界的流行  新型<em>コロナ</em>ウイルス感染症による 外 出制限・ 封鎖  新型<em>コロナ</em>ウイルス感染症による 社会 ・ 経 済 的 影 響  新型<em>コロナ</em>ウイルス感染症に関連する 誤 情報  2019 年<em>コロナ</em>ウイルス感染症で 亡 くなった 著 名 人 の一覧  感染 / 感染症 / 伝 染 病  輸 入感染症  感染 経路  感染 管理  パンデ ミ ック  社会 的スティ",
+          "新型<em>コロナ</em>ウイルス感染症 - 日本医 師 会  新型<em>コロナ</em>ウイルス感染症 - 日本感染症学 会  新型<em>コロナ</em>ウイルス感染症（ COVID-19 ）への対 応 について - 日本 環境 感染学 会  新型<em>コロナ</em>ウイルス関連 情報 特 設 サ イト - 日本 疫 学 会  新型<em>コロナ</em>ウイルス関連 情報 特 設 サ イト - 日本 公衆衛 生学 会  新型<em>コロナ</em>ウイルス（ covid-19 ）感染症対 応 - 日本 臨床 衛 生検査 技師 会  COVID-19 情報 特 設 サ イト - 東 京 都 臨床 工 学 技士 会  新型<em>コロナ</em>ウイルス感染症（ COVID-19 ）に対する BCG ワ ク チ ンの 効果 に関する 見 解 - 日本 ワ ク チ ン学 会  製 薬 協 加 盟 各社 による、治療 薬 ・ ワ ク チ ンの 研究開 発の取り 組 みについて - 日本 製 薬工業",
+          "SARS <em>コロナ</em>ウイルスでは マ ウスでの 動 物 実験 にお いて ACE2 受容体 の発 現 を 減 少 させるとされ $^{[62]}$、新型<em>コロナ</em>ウイルス感染症の 患者 の血 漿 においてもアンジオテン シ ン II が 高 いレベルにあるという 情報 がある $^{[63]}$。そのた め 、 新型<em>コロナ</em>ウイルス感染症の治療において RA 系 の 阻害 が 提案 されている $^{[63][64]}$。 高 血 圧患者 は新型<em>コロナ</em>ウイルス感染症で重症 化 しやすいとされる $^{[65]}$。"
+        ]
+      }
+    },
+    {
+      "id": "b22c0ac457df64887dc49f3242a6ddee",
+      "result_metadata": {
+        "confidence": 0,
+        "score": 0.3959352
+      },
+      "extracted_metadata": {
+        "sha1": "c9293a8cb8b3af30bd89c9ba4c2982af0a3ec731",
+        "author": ["Makoto Kogoh"],
+        "filename": "コロナビール - Wikipedia.doc",
+        "file_type": "word",
+        "title": "コロナビール - Wikipedia"
+      },
+      "text": "コロナビール 出典 : フリー百科事典『ウィキペディア（ Wikipedia ）』 ナビゲーションに移動 検索に移動 この記事は検証可能な参考文献や出典が全く示されていないか、不十分で す。出典を追加して記事の信頼性向上にご協力ください。 出典検索 $^{?}$: \" コロナビール \" – ニュース · 書籍 · スカラー · CiNii · J-STAGE · NDL · dlib.jp · ジャ パンサーチ · TWL （ 2016 年 5 月） コロナ・エキストラ $^{[1]}$（スペイン語： Corona Extra ）は、モデーロ社（ Grupo Modelo ）が 製造するメキシコのビールの銘柄。コロナ、コローナと corona の日本語転写は複数あ るが、本記事では固有名称以外はアンハイザー・ブッシュ・インベブ・ジャパンが定め る「コロナ」と記載する。 目次  1 概要  2 ラインナップ o 2.1 旧ラインナップ  3 エピソード  4 脚注  5 外部リンク 概要 [ 編集 ] 米国のビール同様、軽い味わいが特徴である。大抵の場合ジョッキなどに注がず、栓を 抜いた瓶からラッパ飲みされる。広告に「このビールは、立って飲むのがお行儀です」 というキャッチコピーもある。 そのまま飲むほか、テキーラのように塩分を加えたりする。また、 8 分の 1 程度に櫛形 切りしたライムを瓶の中に押し込んで風味を付けて飲む方法もある。過去には「ライム がなければコロナを飲むな」というキャッチコピーが広告に使われたことがある。 ラインナップ [ 編集 ] アルコール度数はすべて 4.5% 。  コロナ・エキストラ ボトル (355ml)  コロナ・エキストラ 缶 (355ml)  コロニータ・エキストラ 小瓶 (207ml) 旧ラインナップ [ 編集 ]  コローナ・エクストラ (355ml 、 4.6%)  コロニータ (207ml 、 4.6% 中身は上記コローナ・エクストラと同一）  コローナ・ライト (355ml 、 3.8%) エピソード [ 編集 ] 2020 年 、前年から中国 湖北省 武漢市 で発生した新型コロナウイルスによる感染症が猛 威を振るう中「コロナビール」のネット上での検索数が急増した。コロナビールはウイ ルスとは無関係だが、「コロナ」という名称から何らかの連想...",
+      "enriched_text": {
+        "sentiment": {
+          "document": {
+            "score": -0.650265,
+            "label": "negative"
+          }
+        },
+        "entities": [
+          {
+            "count": 4,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "355ml",
+            "confidence": 0.999931,
+            "relevance": 0.94994,
+            "type": "Measure"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2016 年 5 月",
+            "confidence": 0.880853,
+            "relevance": 0.466001,
+            "type": "Date"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "38 ％",
+            "confidence": 0.96,
+            "relevance": 0.415526,
+            "type": "Percent"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2020 年 2 月 29 日",
+            "confidence": 0.94267,
+            "relevance": 0.367563,
+            "type": "Date"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "モデーロ社（ Grupo Modelo ）",
+            "confidence": 0.263666,
+            "relevance": 0.349153,
+            "type": "Organization"
+          },
+          {
+            "count": 4,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "メキシコ",
+            "confidence": 0.999999,
+            "relevance": 0.348996,
+            "type": "Location"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "アンハイザー・ブッシュ・インベブ・ジャパン",
+            "confidence": 0.533751,
+            "relevance": 0.34108,
+            "type": "Organization"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2020 年 4 月 4 日",
+            "confidence": 0.88552,
+            "relevance": 0.339469,
+            "type": "Date"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "4.5%",
+            "confidence": 0.8,
+            "relevance": 0.306634,
+            "type": "Percent"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "207ml",
+            "confidence": 0.854265,
+            "relevance": 0.299375,
+            "type": "Measure"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "4.6%)  コロニータ (207ml",
+            "confidence": 0.405888,
+            "relevance": 0.294123,
+            "type": "Measure"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "4.6%",
+            "confidence": 0.8,
+            "relevance": 0.292589,
+            "type": "Percent"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "3.8%",
+            "confidence": 0.8,
+            "relevance": 0.287978,
+            "type": "Percent"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2020 年",
+            "confidence": 0.810227,
+            "relevance": 0.285923,
+            "type": "Date"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "中国 湖北省 武漢市",
+            "confidence": 0.800119,
+            "relevance": 0.284483,
+            "type": "Location"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "ウイ ルス",
+            "confidence": 0.421391,
+            "relevance": 0.277416,
+            "type": "Person"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2020 年 1 月 18 ～ 26 日",
+            "confidence": 0.381957,
+            "relevance": 0.268647,
+            "type": "Duration"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2300%",
+            "confidence": 0.8,
+            "relevance": 0.262229,
+            "type": "Percent"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "}$",
+            "confidence": 0.463856,
+            "relevance": 0.260607,
+            "type": "Money"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "同年 1 月～ 2 月",
+            "confidence": 0.374583,
+            "relevance": 0.258144,
+            "type": "Duration"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "約 2 億 2100 万ポンド（約 310 億円）",
+            "confidence": 0.664872,
+            "relevance": 0.255939,
+            "type": "Money"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[3]}$",
+            "confidence": 0.323988,
+            "relevance": 0.252625,
+            "type": "Money"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[4]}$",
+            "confidence": 0.324424,
+            "relevance": 0.244914,
+            "type": "Money"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "モデーロ社",
+            "confidence": 0.878312,
+            "relevance": 0.244119,
+            "type": "Organization"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "メキシコ 政府",
+            "confidence": 0.464762,
+            "relevance": 0.241042,
+            "type": "Organization"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "4 月 5 日",
+            "confidence": 0.513877,
+            "relevance": 0.237212,
+            "type": "Date"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[5]}$",
+            "confidence": 0.320628,
+            "relevance": 0.23396,
+            "type": "Money"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "30 万本",
+            "confidence": 0.8,
+            "relevance": 0.228985,
+            "type": "Number"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "$^{[6]}$",
+            "confidence": 0.318784,
+            "relevance": 0.2241,
+            "type": "Money"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "アンハイザー・ブッシュ・インベブ ジャパン",
+            "confidence": 0.415588,
+            "relevance": 0.213249,
+            "type": "Organization"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": -0.620122,
+              "label": "negative"
+            },
+            "text": "2020 年 2 月 20 日",
+            "confidence": 0.634145,
+            "relevance": 0.205857,
+            "type": "Date"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": -0.620122,
+              "label": "negative"
+            },
+            "text": "310 億円",
+            "confidence": 0.984973,
+            "relevance": 0.200779,
+            "type": "Money"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "ライブドアニュース .",
+            "confidence": 0.343461,
+            "relevance": 0.198863,
+            "type": "Organization"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "ウイルス 流 行",
+            "confidence": 0.287402,
+            "relevance": 0.191889,
+            "type": "Organization"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "朝 日新",
+            "confidence": 0.378171,
+            "relevance": 0.174603,
+            "type": "Time"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "ウィキメディア・コモンズ",
+            "confidence": 0.361551,
+            "relevance": 0.169463,
+            "type": "Organization"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "@coronaextrajpn",
+            "confidence": 0.8,
+            "relevance": 0.160536,
+            "type": "TwitterHandle"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "https://ja.wikipedia.org/w/index.php?title=",
+            "confidence": 0.8,
+            "relevance": 0.147859,
+            "type": "URL"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "米国",
+            "confidence": 0.988963,
+            "relevance": 0.146989,
+            "type": "Location"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "80523500",
+            "confidence": 0.8,
+            "relevance": 0.143246,
+            "type": "Number"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "前年",
+            "confidence": 0.947403,
+            "relevance": 0.129252,
+            "type": "Date"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "1",
+            "confidence": 0.96,
+            "relevance": 0.126039,
+            "type": "Number"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "8",
+            "confidence": 0.8,
+            "relevance": 0.111564,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "2",
+            "confidence": 0.96,
+            "relevance": 0.104154,
+            "type": "Number"
+          },
+          {
+            "count": 2,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "日本",
+            "confidence": 0.998491,
+            "relevance": 0.092958,
+            "type": "Location"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "項 目",
+            "confidence": 0.520449,
+            "relevance": 0.086343,
+            "type": "Ordinal"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "一",
+            "confidence": 0.8,
+            "relevance": 0.083419,
+            "type": "Number"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "アメリカ",
+            "confidence": 0.970092,
+            "relevance": 0.080653,
+            "type": "Location"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "米",
+            "confidence": 0.893516,
+            "relevance": 0.074165,
+            "type": "Location"
+          },
+          {
+            "count": 1,
+            "sentiment": {
+              "score": 0,
+              "label": "neutral"
+            },
+            "text": "6",
+            "confidence": 0.8,
+            "relevance": 0.056749,
+            "type": "Number"
+          }
+        ],
+        "concepts": [
+          {
+            "text": "ビール",
+            "relevance": 0.901069,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/ビール"
+          },
+          {
+            "text": "YouTube",
+            "relevance": 0.86248,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/YouTube"
+          },
+          {
+            "text": "ウィキペディア",
+            "relevance": 0.857423,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/ウィキペディア"
+          },
+          {
+            "text": "参考文献",
+            "relevance": 0.825893,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/参考文献"
+          },
+          {
+            "text": "ドイツ語",
+            "relevance": 0.807308,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/ドイツ語"
+          },
+          {
+            "text": "英語",
+            "relevance": 0.807045,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/英語"
+          },
+          {
+            "text": "噂",
+            "relevance": 0.793596,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/噂"
+          },
+          {
+            "text": "ロシア語",
+            "relevance": 0.788966,
+            "dbpedia_resource": "http://ja.dbpedia.org/resource/ロシア語"
+          }
+        ],
+        "categories": [
+          {
+            "score": 0.933481,
+            "label": "/food and drink/beverages/alcoholic beverages/cocktails and beer"
+          },
+          {
+            "score": 0.589292,
+            "label": "/finance/financial news"
+          }
+        ]
+      },
+      "highlight": {
+        "extracted_metadata.filename": [
+          "<em>コロナ</em>ビール - Wikipedia.doc"
+        ],
+        "extracted_metadata.title": ["<em>コロナ</em>ビール - Wikipedia"],
+        "text": [
+          "また、ビ ールの生 産 過程でで き るアルコールを使った 殺菌 ジ ェ ル 30 万本を 寄 付するなど、新型 <em>コロナ</em>ウイルス 対策 に 貢 献すると発 表 した $^{[6]}$。 脚注 [ 編集 ] [ 脚注の使い方 ] 1. ^ Corona Extra - <em>コロナ</em>・エキストラ / <em>コロナ</em>ビール 公式 サイト - コロナビ ール 公式 サイト（アンハイザー・ブッシュ・インベブ ジャパン） 2. ^ “ 新型 肺炎 で連想 ？ 「<em>コロナ</em>ビール」の検索急増 ”. 日本 経済 新 聞 . 2020 年 2 月 20 日 閲覧 。 3. ^ “ 新型<em>コロナ</em>ウイルスの風評被害「<em>コロナ</em>ビール」 310 億円の売上 減 ”. ライブドアニュース . 2020 年 2 月 29 日 閲覧 。 4. ^ “ <em>コロナ</em>ビール「 今 は 買 わない」 38 ％ 、ウイルス 流 行で 米 調査 ”.",
+          "<em>コロナ</em>ビール 出典 : フリー百科事典『ウィキペディア（ Wikipedia ）』 ナビゲーションに移動 検索に移動 この記事は検証可能な参考文献や出典が全く示されていないか、不十分で す。出典を追加して記事の信頼性向上にご協力ください。 出典検索 $^{?}$: \" <em>コロナ</em>ビール \" – ニュース · 書籍 · スカラー · CiNii · J-STAGE · NDL · dlib.jp · ジャ パンサーチ · TWL （ 2016 年 5 月） <em>コロナ</em>・エキストラ $^{[1]}$（スペイン語： Corona Extra ）は、モデーロ社（ Grupo Modelo ）が 製造するメキシコのビールの銘柄。<em>コロナ</em>、コローナと corona の日本語転写は複数あ るが、本記事では固有名称以外はアンハイザー・ブッシュ・インベブ・ジャパンが定め る「<em>コロナ</em>」と記載する。",
+          "過去には「ライム がなければ<em>コロナ</em>を飲むな」というキャッチコピーが広告に使われたことがある。 ラインナップ [ 編集 ] アルコール度数はすべて 4.5% 。  <em>コロナ</em>・エキストラ ボトル (355ml)  <em>コロナ</em>・エキストラ 缶 (355ml)  コロニータ・エキストラ 小瓶 (207ml) 旧ラインナップ [ 編集 ]  コローナ・エクストラ (355ml 、 4.6%)  コロニータ (207ml 、 4.6% 中身は上記コローナ・エクストラと同一）  コローナ・ライト (355ml 、 3.8%) エピソード [ 編集 ] 2020 年 、前年から中国 湖北省 武漢市 で発生した新型<em>コロナ</em>ウイルスによる感染症が猛 威を振るう中「<em>コロナ</em>ビール」のネット上での検索数が急増した。",
+          "<em>コロナ</em>ビールはウイ ルスとは無関係だが、「<em>コロナ</em>」という名称から何らかの連想をした検索が増えている と考えられ、ネット検索の傾向を示す「グーグル・トレンズ」によると、 2020 年 1 月 18 ～ 26 日にかけて「 corona beer virus （<em>コロナ</em>、ビール、ウイルス）」の検索数が世界 で 2300% 上昇した $^{[2]}$。一方でいわゆる風評被害も見られ、同年 1 月～ 2 月だけで約 2 億 2100 万ポンド（約 310 億円）の売上が失われたとされている $^{[3]}$。ビールを飲むアメリカ 人のうち「現在はいかなる 状況下 でも<em>コロナ</em>ビールを 買 わない」と 回答 した人が 38 ％ に上った $^{[4]}$。",
+          "5. ^ “ メキシコの「<em>コロナ</em>ビール」が製造 停止 ”. 日本 経済 新 聞 . 2020 年 4 月 4 日 閲覧 。 6. ^ “ <em>コロナ</em>ビール生 産停止へ　 「 必 要不可 欠 でない」要 請受 け ”. 朝 日新 聞 . 2020 年 4 月 4 日 閲覧 。 外部リンク [ 編集 ] ウィキメディア・コモンズには、コロナビ ールに関連するカテ ゴ リがあります。  <em>コロナ</em>ビール 公式 サイト  Corona Extra Japan (@coronaextrajpn) - Twitter  Corona Extra Japan - Facebook  Corona Extra Japan - YouTube チャンネル 「 https://ja.wikipedia.org/w/index.php?"
+        ]
+      }
+    }
+  ],
+  "retrieval_details": {
+    "document_retrieval_strategy": "untrained"
+  }
+}
