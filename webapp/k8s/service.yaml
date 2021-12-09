@@ -3,8 +3,8 @@ kind: Service
 metadata:
   labels:
     app: team-gemini-frontend
-    app.kubernetes.io/instance: team-gemini
-    app.kubernetes.io/name: team-gemini
+    app.kubernetes.io/instance: team-gemini-frontend
+    app.kubernetes.io/name: team-gemini-frontend
   name: team-gemini-frontend
 spec:
   ports:
@@ -13,7 +13,7 @@ spec:
       protocol: TCP
       targetPort: 8080
   selector:
-    app.kubernetes.io/instance: team-gemini
-    app.kubernetes.io/name: team-gemini
+    app.kubernetes.io/instance: team-gemini-frontend
+    app.kubernetes.io/name: team-gemini-frontend
   sessionAffinity: None
   type: ClusterIP
