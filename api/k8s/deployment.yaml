@@ -44,7 +44,7 @@ spec:
           #   timeoutSeconds: 1
           name: team-gemini
           ports:
-            - containerPort: 3000
+            - containerPort: 8000
               name: http
               protocol: TCP
           # readinessProbe:
