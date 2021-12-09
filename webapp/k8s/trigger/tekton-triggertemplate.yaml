@@ -18,3 +18,15 @@ spec:
               claimName: team-gemini-pvc
               # 最終型はfrontendとbackend両方トリガーする
               # https://github.com/tektoncd/triggers/issues/801
+     - apiVersion: tekton.dev/v1beta1
+      kind: PipelineRun
+      metadata:
+        generateName: gemini-backend-pipeline-run-
+      spec:
+        serviceAccountName: build-bot
+        pipelineRef:
+          name: gemini-backend-pipeline
+        workspaces:
+          - name: pipeline-shared-data
+            persistentVolumeClaim:
+              claimName: backend-pvc

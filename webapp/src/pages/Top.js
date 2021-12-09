@@ -2,15 +2,39 @@
 import React, {useState} from 'react';
 import Layout from '../components/layout/Layout';
 
-import { makeStyles, Grid, Container, IconButton, Paper, InputBase, Card, CardActions, CardContent, Button, Typography} from "@material-ui/core";
+import {
+  makeStyles,
+  Grid,
+  Container,
+  IconButton,
+  Paper,
+  InputBase,
+  Card,
+  CardActions,
+  CardContent,
+  Button,
+  Typography,
+  FormControl,
+  Select,
+  MenuItem
+} from "@material-ui/core";
 import SearchIcon from '@material-ui/icons/Search';
 
 import { queryDiscovery }from '../utils/index';
+import { discoveryCategories } from '../utils/discoveryCategories';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  form: {
     marginTop: '20px',
     marginBottom: '20px',
+    display: 'flex',
+    alignItems: 'center',
+  },
+  select: {
+    marginRight: '20px',
+    backgroundColor: '#fff',
+  },
+  inputContainer: {
     padding: '2px 4px',
     display: 'flex',
     alignItems: 'center',
@@ -42,28 +66,29 @@ const useStyles = makeStyles((theme) => ({
 const Top = () => {
   const [sendText, setSendText] = useState('');
   const [recvText, setRecvText] = useState('');
+  const [categoryId, setCategoryId] = useState(0);
 
   const classes = useStyles();
 
   const onPressQuery = async (event) => {
     event.preventDefault();
-    const res = await queryDiscovery(sendText);
+    const res = await queryDiscovery(sendText, categoryId);
     setRecvText(res.data.responseText);
     console.log(res);
     // setSendText('');
   }
 
   const sampleItems = Array.from(Array(20).keys()).map(n => 
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={3} key={n}>
           <Card sx={{ minWidth: 575 }}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} gutterBottom>
                 Word of the Day
               </Typography>
               <Typography variant="h5" component="div">
                 belent
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} >
                 adjective
               </Typography>
               <Typography variant="body2">
@@ -81,19 +106,28 @@ const Top = () => {
 
   return (
     <Layout>
-      <form onSubmit={(e)=>{onPressQuery(e)}}>
-        <Paper className={classes.root}>
+      <form onSubmit={(e)=>{onPressQuery(e)}} className={classes.form}>
+        <FormControl variant="outlined" className={classes.select}>
+          <Select value={categoryId} onChange={(e) => setCategoryId(e.target.value)}>
+            <MenuItem value={0}>カテゴリを選択</MenuItem>
+            {discoveryCategories.map(([id, label]) => (
+              <MenuItem value={id}>{label}</MenuItem>
+              ))}
+          </Select>
+        </FormControl>
+        <Paper className={classes.inputContainer}>
           <InputBase
+            value={sendText}
             className={classes.input}
             placeholder="Watson Discovery で検索"
             inputProps={{ 'aria-label': 'search watson discovery' }}
             onChange={(e)=>{setSendText(e.target.value)}}
+            onClick={() => sendText === "" ? setSendText("Watson Discovery") : null}
           />
-          <IconButton 
-            type="button"
+          <IconButton
+            type="submit"
             className={classes.iconButton}
             aria-label="search"
-            onClick={(e) => onPressQuery(e)}
           >
             <SearchIcon />
           </IconButton>
@@ -103,13 +137,13 @@ const Top = () => {
         <Grid item xs={12} sm={6} md={3}>
           <Card sx={{ minWidth: 575 }}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }}  gutterBottom>
                 Word of the Day
               </Typography>
               <Typography variant="h5" component="div">
                 belent
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} >
                 adjective
               </Typography>
               <Typography variant="body2">
