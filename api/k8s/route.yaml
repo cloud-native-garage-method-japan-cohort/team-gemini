@@ -4,12 +4,12 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: Validate=false
     openshift.io/host.generated: "true"
-  name: akpfs
+  name: team-gemini
 spec:
   tls:
     termination: edge
   to:
      kind: Service
-     name: team-gemini-backend
+     name: team-gemini
      weight: 100
   wildcardPolicy: None
