@@ -16,7 +16,8 @@ import {
   Typography,
   FormControl,
   Select,
-  MenuItem
+  MenuItem,
+  CircularProgress
 } from "@material-ui/core";
 import SearchIcon from '@material-ui/icons/Search';
 
@@ -59,23 +60,49 @@ const useStyles = makeStyles((theme) => ({
   },
   cardGrid: {
     padding: '2px 12px 2px 12px'
-  }
+  },
+  noResultContainer: {
+    padding: '2px 4px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 600,
+  },
+  circularLoadContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  cardTitle: {
+    color:'#0066ff', 
+    textDecoration: 'underline', 
+    fontWeight: 'bold',
+    paddingBottom: '10px'
+  },
 }));
 
 
 const Top = () => {
   const [sendText, setSendText] = useState('');
-  const [recvText, setRecvText] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
   const [categoryId, setCategoryId] = useState(0);
+  const [hasSearched, setHasSearched] = useState(false);
+  const [searchedText, setSearchedText] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
 
   const classes = useStyles();
 
   const onPressQuery = async (event) => {
     event.preventDefault();
-    const res = await queryDiscovery(sendText, categoryId);
-    setRecvText(res.data.responseText);
-    console.log(res);
-    // setSendText('');
+    setHasSearched(true);
+    setSearchedText(sendText);
+    setIsSearching(true);
+    return queryDiscovery(sendText, categoryId)
+      .then((result) => { 
+      setIsSearching(false);
+      Array.isArray(result.data.responseText) ?
+        setSearchResults(result.data.responseText) :
+        setSearchResults([]);
+      });
   }
 
   const sampleItems = Array.from(Array(20).keys()).map(n => 
@@ -104,6 +131,56 @@ const Top = () => {
         </Grid>
     );
 
+  const renderSearchResults = () => {
+    if(!hasSearched) {
+      return null;
+    }
+    if(isSearching) {
+      return (
+      <Container className={classes.circularLoadContainer}>
+        <CircularProgress />
+      </Container>
+      );
+    }
+    if(searchResults.length === 0) {
+      return (
+        <Container className={classes.noResultContainer}>
+          <Typography variant="body1" component="div">
+            {`${searchedText} に一致する情報は見つかりませんでした。`}
+          </Typography>
+        </Container>
+      );
+    }
+    const keys = {index: 0};
+    return searchResults.map(e => {
+      const { title, description, filename} = e;
+      return (
+      <Grid item xs={12} sm={6} md={3} key={keys.index++}>
+      <Card sx={{ minWidth: 575 }}>
+        <CardContent style={{textAlign: "left"}}>
+          <Typography variant="h7" component="div" className={classes.cardTitle}>
+           {title}
+          </Typography>
+          <Typography variant="body2">
+           {`${description.substring(0, 100)}...`}
+          </Typography>
+        </CardContent>
+        <CardActions>
+            <Button 
+              size="small"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(`https://github.com/cloud-native-garage-method-japan-cohort/team-gemini/blob/master/resources/${filename}`, '_blank');
+                }}
+            >
+                Open Document
+            </Button>
+        </CardActions>
+      </Card>
+    </Grid>)
+    });
+  }
+
   return (
     <Layout>
       <form onSubmit={(e)=>{onPressQuery(e)}} className={classes.form}>
@@ -122,7 +199,7 @@ const Top = () => {
             placeholder="Watson Discovery で検索"
             inputProps={{ 'aria-label': 'search watson discovery' }}
             onChange={(e)=>{setSendText(e.target.value)}}
-            onClick={() => sendText === "" ? setSendText("Watson Discovery") : null}
+            onClick={() => sendText === "" ? setSendText("IBM") : null}
           />
           <IconButton
             type="submit"
@@ -133,37 +210,9 @@ const Top = () => {
           </IconButton>
         </Paper>
       </form>
-      <Grid container spacing={1} className={classes.cardGrid}>
-        <Grid item xs={12} sm={6} md={3}>
-          <Card sx={{ minWidth: 575 }}>
-            <CardContent>
-              <Typography sx={{ fontSize: 14 }}  gutterBottom>
-                Word of the Day
-              </Typography>
-              <Typography variant="h5" component="div">
-                belent
-              </Typography>
-              <Typography sx={{ mb: 1.5 }} >
-                adjective
-              </Typography>
-              <Typography variant="body2">
-                well meaning and kindly.
-                <br />
-                {'"a benevolent smile"'}
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small">Learn More</Button>
-            </CardActions>
-          </Card>
-        </Grid>
-        {sampleItems}
+      <Grid container spacing={1} className={classes.cardFilename}>
+        {renderSearchResults()}
       </Grid>
-      <Container>
-        <Grid>
-          {recvText}
-        </Grid>
-      </Container>
     </Layout>
   )
 }
