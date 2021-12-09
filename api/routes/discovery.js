@@ -21,7 +21,7 @@ const createQuery = (categoryLabel, searchStr) => {
     .split(" ")
     .map((item) => `text:"${item}"`)
     .join(",");
-  return `enriched_text.categories.label::"${categoryLabel}",(${texts})`;
+  return `enriched_text.categories.label:"${categoryLabel}",(${texts})`;
 };
 
 const runQuery = async (categoryLabel, searchStr) => {
@@ -56,24 +56,16 @@ const runQuery = async (categoryLabel, searchStr) => {
       results.push(result);
     });
     return results;
-
-    // const textArray = queryResponse.result.results[0].highlight.text
-    // const filtered = textArray.map((text) => {
-    //   return text.replace(/<em>/g, '').replace(/<\/em>/g, '');
-    // });
-    // return filtered;
   } else {
     return "該当する情報が見つかりませんでした。";
   }
 };
 
 const categoryDict = {
-  1: "/health and fitness/disease",
-  2: "/health and fitness/disease",
-  3: "/health and fitness/disease",
-  4: "/health and fitness/disease",
-  5: "/health and fitness/disease",
-  6: "/health and fitness/disease",
+  1: "/food and drink",
+  2: "/health and fitness",
+  3: "/technology and computing",
+  4: "/business and industrial",
 };
 
 router.post("/search", async (req, res) => {

@@ -17,5 +17,5 @@ curl 'http://localhost:8000/discovery/search' \
   -H 'Sec-Fetch-Dest: empty' \
   -H 'Referer: http://localhost:3000/' \
   -H 'Accept-Language: ja,en-US;q=0.9,en;q=0.8' \
-  --data-raw '{"searchText":"コロナ","category":1}' \
+  --data-raw '{"searchText":"パナソニック","category":4}' \
   --compressed
