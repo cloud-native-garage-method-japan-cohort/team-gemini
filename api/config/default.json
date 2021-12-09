@@ -1,11 +1,11 @@
 {
   "watson": {
     "discovery": {
-      "version": "2019-04-30",
-      "apikey": "hgiFIypQyJrMFA_PzerPvLls1KIgHIrbaH1qLAr7RdcA",
-      "serviceUrl": "https://api.jp-tok.discovery.watson.cloud.ibm.com",
-      "environmentId": "057e7d5d-b75e-4ddc-8de5-88aba66cbff2",
-      "collectionId": "be3fe3d0-9377-4704-a118-8f5905c820f0"
+      "version": "2018-12-03",
+      "apikey": "NVWZnmqwzARhuP1DpCTqiRJ6fQKJzB0ckiY4oclVIQIs",
+      "serviceUrl": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/b7652877-6282-4414-88a7-7a628038c164",
+      "environmentId": "23af6d32-da43-4c73-90ba-760d550f8083",
+      "collectionId": "b1b6532f-174c-45ad-a762-0cf974c69605"
     }
   }
 }

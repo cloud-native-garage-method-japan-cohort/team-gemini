@@ -4,10 +4,10 @@ metadata:
   annotations:
     enzo: "true"
   labels:
-    app: team-gemini
-    app.kubernetes.io/instance: team-gemini
-    app.kubernetes.io/name: team-gemini
-  name: team-gemini
+    app: team-gemini-backend
+    app.kubernetes.io/instance: team-gemini-backend
+    app.kubernetes.io/name: team-gemini-backend
+  name: team-gemini-backend
   namespace: team-gemini
 spec:
   ports:
@@ -16,8 +16,8 @@ spec:
     protocol: TCP
     targetPort: 3000
   selector:
-    app.kubernetes.io/instance: team-gemini
-    app.kubernetes.io/name: team-gemini
+    app.kubernetes.io/instance: team-gemini-backend
+    app.kubernetes.io/name: team-gemini-backend
   sessionAffinity: None
   type: ClusterIP
 ---
@@ -30,10 +30,10 @@ metadata:
     enzo: "true"
   labels:
     app: team-gemini
-    app.kubernetes.io/instance: team-gemini
-    app.kubernetes.io/name: team-gemini
+    app.kubernetes.io/instance: team-gemini-backend
+    app.kubernetes.io/name: team-gemini-backend
     app.openshift.io/runtime: js
-  name: team-gemini
+  name: team-gemini-backend
   namespace: team-gemini
 spec:
   progressDeadlineSeconds: 600
@@ -41,16 +41,16 @@ spec:
   revisionHistoryLimit: 10
   selector:
     matchLabels:
-      app.kubernetes.io/instance: team-gemini
-      app.kubernetes.io/name: team-gemini
+      app.kubernetes.io/instance: team-gemini-backend
+      app.kubernetes.io/name: team-gemini-backend
   template:
     metadata:
       annotations:
         enzo: "true"
       creationTimestamp: null
       labels:
-        app.kubernetes.io/instance: team-gemini
-        app.kubernetes.io/name: team-gemini
+        app.kubernetes.io/instance: team-gemini-backend
+        app.kubernetes.io/name: team-gemini-backend
     spec:
       containers:
       - env:
@@ -69,7 +69,7 @@ spec:
           periodSeconds: 10
           successThreshold: 1
           timeoutSeconds: 1
-        name: team-gemini
+        name: team-gemini-backend
         ports:
         - containerPort: 3000
           name: http
@@ -106,6 +106,6 @@ spec:
     termination: edge
   to:
     kind: Service
-    name: team-gemini
+    name: team-gemini-backend
     weight: 100
   wildcardPolicy: None
