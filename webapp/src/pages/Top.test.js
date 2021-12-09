@@ -10,7 +10,7 @@ test('text inputクリック時にデフォルト検索ワードが入力され�
   );
 
   const input = screen.getByRole("textbox").closest("input");
-  const defaultKeyword = "Watson Discovery";
+  const defaultKeyword = "IBM";
 
   expect(input.value).toBe("");
 
