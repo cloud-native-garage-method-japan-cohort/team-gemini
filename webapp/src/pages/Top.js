@@ -54,16 +54,16 @@ const Top = () => {
   }
 
   const sampleItems = Array.from(Array(20).keys()).map(n => 
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={3} key={n}>
           <Card sx={{ minWidth: 575 }}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }} gutterBottom>
                 Word of the Day
               </Typography>
               <Typography variant="h5" component="div">
                 belent
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} >
                 adjective
               </Typography>
               <Typography variant="body2">
@@ -84,10 +84,12 @@ const Top = () => {
       <form onSubmit={(e)=>{onPressQuery(e)}}>
         <Paper className={classes.root}>
           <InputBase
+            value={sendText}
             className={classes.input}
             placeholder="Watson Discovery で検索"
             inputProps={{ 'aria-label': 'search watson discovery' }}
             onChange={(e)=>{setSendText(e.target.value)}}
+            onClick={() => sendText === "" ? setSendText("Watson Discovery") : null}
           />
           <IconButton 
             type="button"
@@ -103,13 +105,13 @@ const Top = () => {
         <Grid item xs={12} sm={6} md={3}>
           <Card sx={{ minWidth: 575 }}>
             <CardContent>
-              <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              <Typography sx={{ fontSize: 14 }}  gutterBottom>
                 Word of the Day
               </Typography>
               <Typography variant="h5" component="div">
                 belent
               </Typography>
-              <Typography sx={{ mb: 1.5 }} color="text.secondary">
+              <Typography sx={{ mb: 1.5 }} >
                 adjective
               </Typography>
               <Typography variant="body2">
