@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<script>digitalData = {
+    "page": {
+        "category": [],
+        "pageInfo": {
+            "language": "ja-JP",
+            "country": "JP",
+            "publisher": "IBM Corporation",
+            "version": "v18",
+            "ibm": {
+                "contentDelivery": "Drupal 9",
+                "contentProducer": "3026356 - Case Study",
+                "owner": "Lrichar@us.ibm.com",
+                "siteID": "DRUPAL",
+                "config": {
+                    "masthead": {
+                        "type": "default"
+                    },
+                    "footer": {
+                        "type": "default"
+                    }
+                }
+            },
+            "publishDate": "2021-10-07",
+            "effectiveDate": "2021-10-06",
+            "expiryDate": "2025-10-07",
+            "hotjar": {
+                "enabled": "true"
+            },
+            "convertro": {
+                "enabled": "true"
+            }
+        }
+    }
+}</script>
+<meta name="geo.country" content="JP" />
+<link rel="canonical" href="https://www.ibm.com/jp-ja/case-studies/tokyo-ikaken" />
+<meta http-equiv="content-language" content="ja-jp" />
+<meta name="robots" content="index, follow" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta name="rights" content="© Copyright IBM Corporation 2021" />
+<meta name="description" content="東京大学医科学研究所ヒトゲノム解析センターは、IBM Research、IBM Garageとの共創を通してHGC SARS-CoV-2 Variant Browserを開発し、スーパーコンピュータSHIROKANE上でのシステム運用を開始しました。" />
+<meta name="abstract" content="IBM Research、そしてIBM Garageとの共創を通してHGC SARS-CoV-2 Variant Browserを開発し、スーパーコンピュータSHIROKANE上でのシステム運用を開始しました。新型コロナウイルスのゲノム配列データを活用することで、ゲノム変異状況のモニタリングや懸念するべき変異株の迅速な発見、ゲノム変異情報を用いた感染経路の推定が可能になりました。" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.ibm.com/jp-ja/case-studies/tokyo-ikaken" />
+<meta property="og:title" content="[IBM事例] 東京大学医科学研究所ヒトゲノム解析センター" />
+<meta property="og:description" content="新型コロナウイルスのゲノム変異を解析するHGC SARS-CoV-2 Variant Browser開発にIBM Garageを活用" />
+<meta property="og:image" content="https://1.cms.s81c.com/sites/default/files/2021-09-27/tokyo-ikaken-top-D.jpg" />
+<meta property="og:locale" content="ja-jp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="新型コロナウイルスのゲノム変異を解析するHGC SARS-CoV-2 Variant Browser開発にIBM Garageを活用" />
+<meta name="twitter:title" content="[IBM事例] 東大医科学研 x IBM" />
+<script>cpp = {"path":"\/cloud\/ajax\/product\/{product}"}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" hreflang="ja-jp" href="https://www.ibm.com/jp-ja/case-studies/tokyo-ikaken" />
+<link rel="shortcut icon" href="//www.ibm.com/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.ibm.com/jp-ja/case-studies/tokyo-ikaken" />
+
+    <title>東京大学医科学研究所ヒトゲノム解析センター – Garage | 事例紹介 - 日本 | IBM</title>
+    <link rel='dns-prefetch' href='//1.www.s81c.com' />
+<link rel='preconnect' href='//1.www.s81c.com' />
+    <link href="//1.www.s81c.com/common/v18/drupal/css/www.css" rel="preload" as="style"  />
+    <link rel="stylesheet" href="//1.www.s81c.com/common/v18/drupal/css/www.css" media="all" />
+<link href="//1.www.s81c.com/common/v18/drupal/css/grid-fluid.css" rel="preload" as="style"  />
+<link rel="stylesheet" href="//1.www.s81c.com/common/v18/drupal/css/grid-fluid.css" media="all" />
+<link href="//1.www.s81c.com/common/v18/drupal/css/tables.css" rel="preload" as="style"  />
+<link rel="stylesheet" href="//1.www.s81c.com/common/v18/drupal/css/tables.css" media="all" />
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-regularitalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/icons-ibm-v12.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="//1.www.s81c.com/common/fonts/plex/v1/ibmplexsans-light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" media="all" href="//1.cms.s81c.com/sites/default/files/css/css_NwZiSGjaHlVmcOqnKIKpGH5-7g17pgNob7EOIbKyItU.css" />
+<link rel="stylesheet" media="all" href="//1.cms.s81c.com/sites/default/files/css/css_1Woh1q71lWyFamIJmkfeplYOGM2XRf6cYIbl-JlkR2E.css" />
+
+    <script src="//1.www.s81c.com/common/stats/ibm-common.js"></script>
+<script src="//1.www.s81c.com/common/v18/drupal/js/www.js" defer></script>
+<script src="//1.www.s81c.com/common/carbon/plex/load-non-latin-plex.js" defer></script>
+<script src="//1.cms.s81c.com/themes/custom/northstar/js/build/custom/casestudies/case-studies.min.js?v=9.2.7" defer></script>
+
+  </head>
+  <body id="ibm-com"  uuid="4a2aa885-15de-4155-af55-fcf5a1cfd9e6" class="path-node page-node-type-case-study ibm-type">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<div id="ibm-top">
+      <div class="region region-masthead">
+    
+
+    
+    
+
+<div id="ibm-masthead" role="banner" aria-label="IBM" data-mhtype="alternate" class="simple  ibm-mhtype-alternate">
+  <div id="ibm-universal-nav">
+    <nav role="navigation" aria-label="IBM">
+      <div id="ibm-home"><a href="https://www.ibm.com/jp/ja">IBM®</a></div>
+                    <!-- Menu -->
+              
+              <ul aria-label="" role="toolbar" class="ibm-masthead-categories">
+
+              </ul>
+      
+      <ul id="ibm-menu-links" role="toolbar" aria-label="Site map">
+        <li><a href="https://www.ibm.com/sitemap/jp/ja">サイトマップ</a></li>
+      </ul>
+    </nav>
+
+          <div id="ibm-search-module" role="search" aria-labelledby="ibm-masthead">
+        <form id="ibm-search-form" action="https://www.ibm.com/Search/" method="get">
+          <p>
+            <label for="q">IBM</label>
+            <input type="text" maxlength="100" value="" placeholder=検索 name="q" id="q" aria-label="Search"/>
+            <input type="hidden" value="18" name="v"/>
+            <input type="hidden" value="utf" name="en"/>
+            <input type="hidden" value="ja" name="lang"/>
+            <input type="hidden" value="jp" name="cc"/>
+            <input type="submit" id="ibm-search" class="ibm-btn-search" value="Submit"/>
+          </p>
+        </form>
+      </div>
+    
+
+  </div> 
+  </div>
+
+  </div>
+
+      <div id="ibm-content-wrapper">
+        <header>
+            <div id="ibm-leadspace-head"
+                style="background: url('//1.cms.s81c.com/sites/default/files/2021-09-27/tokyo-ikaken-top-D.jpg');background-repeat:no-repeat;background-color:rgba(0, 2, 2, 0.6);background-size: cover;background-blend-mode:overlay, multiply; -webkit-background-size: cover;">
+                <div class="ibm-leadspace-background">
+                    <div id="ibm-leadspace-body" class="ibm-alternate-background ibm-padding-top-r2 ibm-padding-bottom-r2">
+                        <!-- Nav trail -->
+                        <div class="ibm-fluid">
+                            <div class="ibm-col-12-12">
+                                <div class="ibm-textcolor-white-core  ibm-padding-bottom-r1 ibm-hidden-small">
+                                    <ul id="solution-industry" class="ibm-plain-list ibm-padding-bottom-r1 ">
+                                                                                     <li>Solution</li>
+                                             <li><span class="ibm-textcolor-white-core ibm-bold">Services</span></li>
+                                                                                <br class="ibm-br-small">
+                                                                                     <li>Industry</li>
+                                             <li><span class="ibm-textcolor-white-core ibm-bold">Healthcare</span></li>
+                                                                            </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ibm-fluid">
+                            <div class="ibm-col-12-7">
+                                                                <h1 class="ibm-h1 ibm-bold ibm-large ibm-textcolor-red-30 ibm-padding-bottom-1 ibm-padding-top-3 ibm-h4-small"
+                                    id="ibm-pagetitle-h1">東京大学医科学研究所ヒトゲノム解析センター</h1>
+
+                                <h2 class="ibm-h3 ibm-light ibm-h3-small">新型ウイルスのゲノム変異解析・可視化を迅速に実施するウェブ・アプリケーション「HGC SARS-CoV-2 Variant Browser」の開発にIBM Garageを活用</h2>
+                                <p class="ibm-h4">IBM Research、そしてIBM Garageとの共創を通してHGC SARS-CoV-2 Variant Browserを開発し、スーパーコンピュータSHIROKANE上でのシステム運用を開始しました。新型コロナウイルスのゲノム配列データを活用することで、ゲノム変異状況のモニタリングや懸念するべき変異株の迅速な発見、ゲノム変異情報を用いた感染経路の推定が可能になりました。</p>
+                            </div>
+                                                                                                                    <div id="ibm-leadspace-social">
+                                    <div class="ibm-fluid">
+                                        <div class="ibm-col-12-12">
+                                            <div class="ibm-leadspace-social-links">
+                                                <p style="color: #fff;float: left;padding: 4px 10px;"></p>
+                                                <p class="ibm-icononly ibm-alternate">
+                                                                                                                                                                                                                                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        <div class="ibm-padding-top-1 ibm-padding-bottom-1 ibm-alternate-background">
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- LEADSPACE_END -->
+        </header>
+        <main role="main" aria-labelledby="ibm-pagetitle-h1">
+            <div id="ibm-pcon">
+                <div id="ibm-content">
+                    <div id="ibm-content-body">
+                        <!-- node--case-study.html.twig starts here -->
+                          <div class="region region-content">
+    <div id="block-northstar-content">
+  
+    
+      
+
+
+<div aria-labelledby="ibm-content-main">
+                        <div class="ibm-band ibm-background-gray-80">
+                    
+
+
+<div class="ibm-pull-quote ibm-h3 ibm-light ibm-alternate ibm-center ibm-col-6-4 ibm-center-block ibm-padding-bottom-r1 ibm-col-medium-1-1 ibm-padding-top-r1">
+    <blockquote>
+        <p >
+            <em class="ibm-textcolor-white-core">
+<span class="ibm-pull-quote-open ibm-bold ">&ldquo;</span>
+
+                <span  role="article" about="/jp-ja/case-studies/tokyo-ikaken" >新型コロナウイルスのゲノム変異状況を解析するためのプラットフォームが必要だと早期から思索していました。IBMと協業することで、国内のゲノム変異の状況をモニタリングし、変異の祖先を推定し伝搬する状況を可視化するシステムの構築が可能と考えました。</span>
+                <span class="ibm-pull-quote-close ibm-bold " style="transform: translate3d(0,.12em,0);">&rdquo;</span>
+            </em>
+        </p>
+                     <span>
+                <p class="ibm-pull-quote-source ibm-textcolor-red-30 ibm-bold ibm-padding-bottom-0">
+                    &mdash;
+                        <span>東京大学医科学研究所ヒトゲノム解析センター</span>,                                            <span>センター長</span>,                                                                <span>井元清哉 教授</span>
+                                    </p>
+            </span>
+            </blockquote>
+</div>
+            </div>
+            
+    <div  class="ibm-fluid">
+        <div class="ibm-col-12-8 ibm-center-block">
+            <div class="ibm-padding-content">
+                <h2 class="ibm-h3 ibm-bold ibm-textcolor-red-50 ibm-h4-small">     <span > お客様課題</span>
+ </h2>
+                            <p>新型コロナウイルスは、懸念される変異株の幾度の出現も相まって、世界的な感染拡大が現在も続いている状況です。その状況を把握するための重要な要素として、ウイルスゲノムの変異情報があげられます。世界各地で収集されたゲノム配列はデータベースで公開されていますが、その登録数は2021年10月現在400万を超え、現在も増え続けています（*1）。新型コロナウイルス対策に従事する研究者は、この膨大な量のゲノム情報から自身の研究対象となる情報を抽出・調査・解析する必要があるため、それを行う時間やリソースを確保することは容易ではありません。また、昨今は音楽やスポーツ・イベントなどの事業再開を模索する活動も進められつつあり（*2）、変異情報のモニタリングやそのデータに基づいて対策を講じることのできる体制が求められていました。</p>
+      
+            </div>
+        </div>
+    </div>
+    <div  class="ibm-fluid">
+        <div class="ibm-col-12-8 ibm-center-block">
+            <div class="ibm-padding-content">
+                <h2 class="ibm-h3 ibm-bold ibm-textcolor-red-50 ibm-h4-small">     <span > 概要と経緯</span>
+ </h2>
+                            <p>東大医科研ヒトゲノム解析センターは、IBMとともに国内の新型コロナウイルスのゲノム変異情報を解析するためのウェブ・アプリケーション「HGC SARS-CoV-2 Variant Browser」を開発しました。本開発にあたり、IBM Researchがゲノム変異解析に取り組んできた研究成果（*3、4）、およびIBM ResearchとIBM Garageで開発したSARS-CoV-2 Variant Browserも活用しています（*5、6）。プロジェクトを推進するにあたり、短期間で効率的な開発を実現するためIBM Garageを採用し、Minimum Viable Product（MVP）ビルドアップを実施しました。一定サイクルでの開発とプレイバック（実働アプリケーションを用いて実装機能の確認と評価をアジャイルに行うアクティビティー）を繰り返し、約2カ月間でヒトゲノム解析センターが運用するスーパーコンピュータSHIROKANE上でのシステム稼働に至りました（*7）。</p>
+      
+            </div>
+        </div>
+    </div>
+                
+                    <div  class="ibm-fluid">
+                <div class="ibm-col-12-8 ibm-center-block">
+                    <div class="ibm-padding-content">
+                        <h2 class="ibm-h3 ibm-bold ibm-textcolor-red-50 ibm-h4-small">
+                                <span > 効果と今後の展望</span>
+
+                        </h2>
+
+                        <p><p>本システムにより、国内における新型コロナウイルスのゲノム変異状況のモニタリングやゲノム変異レベルでのウイルスの感染経路を推定することが可能となりました。また、解析情報の活用が必要な外部の研究者へのサービス提供も既に開始されました。現在は、新たに収集する新型コロナウイルスのゲノム解析や、大型イベントなどで人が動くことによって発生するウィルス感染のモニタリングなど、新型コロナウイルスの基礎研究ならびに感染拡大防止策への活用を進めています。さらに、新型コロナウイルスのゲノム断片情報を用いて検索・比較する機能の開発も進めており、下水中などから検出された新型コロナウイルスの解析に活用していくことが期待されます。</p>
+
+<p> </p>
+
+<h4 class="ibm-h4"><strong>製品・サービス・技術情報</strong></h4>
+
+<p><a data-entity-substitution="" data-entity-type="" data-entity-uuid="" href="https://www.ibm.com/jp-ja/garage">IBM Garageサービス</a><br />
+SARS-CoV-2 Variant Annotator<br />
+SARS-CoV-2 Variant Browser</p>
+
+<h4 class="ibm-h4"><strong>ニュースリリース</strong></h4>
+
+<p><a data-entity-substitution="" data-entity-type="" data-entity-uuid="" href="https://jp.newsroom.ibm.com/2021-06-08-Developed-a-system-for-rapid-analysis-and-visualization-of-viral-genome-mutations" target="_blank">東大医科研とIBM、COVID-19の国内感染拡大リスク軽減のため、ウイルスゲノム変異解析・可視化を迅速に実施するシステムを開発 </a></p>
+
+<p> </p>
+
+<h4 class="ibm-h4"><strong>脚注</strong></h4>
+
+<ol><li><a data-entity-substitution="" data-entity-type="" data-entity-uuid="" href="https://www.gisaid.org/">GISAID</a></li>
+	<li>
+	<h4><a data-entity-substitution="" data-entity-type="" data-entity-uuid="" href="https://www.cas.go.jp/jp/seisaku/ful/taisakusuisin/bunkakai/dai7/vaccine_nichijou.pdf">“ワクチン接種が進む中で日常生活はどのように変わり得るのか”, 新型コロナウイルス感染症対策分科会. 2021.09.03</a></h4>
+	</li>
+	<li>
+	<h4>Koyama T., Platt D., Parida L. “Variant analysis of SARS-CoV-2 genomes.” Bull World Health Organ. 2020;98:495-504.</h4>
+	</li>
+	<li>
+	<h4>Tokumasu R., Weeraratne D., Snowdon J., Parida L., Kudo M., Koyama T. “Introductions and evolutions of SARS-CoV-2 strains in Japan” medRxiv 2021.02.26.21252555.</h4>
+	</li>
+	<li>
+	<h4><a data-entity-substitution="" data-entity-type="" data-entity-uuid="" href="https://ibm.biz/functional-genomics" target="_blank">SARS-CoV-2 Variant Browser - IBM Functional Genomics Platform</a></h4>
+	</li>
+	<li>
+	<h4><a data-entity-substitution="" data-entity-type="" data-entity-uuid="" href="https://www.ibm.com/blogs/think/jp-ja/mugendai-12229-column-sars-cov-2-variant-browser/" target="_blank">「新型コロナウイルスの遺伝子変異可視化アプリケーション」をIBMが提供――遺伝子変異を素早くフォローし、医療研究者への情報提供を</a></h4>
+	</li>
+	<li>
+	<h4><a data-entity-substitution="" data-entity-type="" data-entity-uuid="" href="https://cov.atgc.info/" target="_blank">HGC SARS-CoV-2 Variant Browser</a></h4>
+	</li>
+</ol></p>
+                    </div>
+                </div>
+            </div>
+            
+                            <div  class="ibm-fluid">
+                    <div class="ibm-col-12-8 ibm-center-block">
+                        <div class="ibm-padding-content">
+                            <h2 class="ibm-h3 ibm-bold ibm-textcolor-red-50 ibm-h4-small">
+                                    <span >  製品・サービス</span>
+
+                            </h2>
+                            <p>
+                                                            <li>Services</li>
+                                                            <li>Analytics</li>
+                                                            <li>COVID-19</li>
+                                                        </p>
+                        </div>
+                    </div>
+                </div>
+                            <div  class="ibm-fluid">
+        <div class="ibm-col-12-8 ibm-center-block">
+            <div class="ibm-col-12-4">
+                <div class="ibm-padding-content">
+                    <p class="ibm-button-link" id="print-study"><a href="#" onclick="window.print(); return false;" class="ibm-btn-sec ibm-btn-wrap">Print</a></p>
+                </div>
+            </div>
+                    </div>
+    </div>
+</div>
+
+  </div>
+
+  </div>
+
+                        <!-- node--case-study.html.twig end-->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+            <footer role="contentinfo" aria-label="IBM">
+              <div class="region region-footer">
+    
+
+<div id="ibm-footer-module">
+    <section role="region" aria-label="Resources">
+
+            <div class="ibm-columns">
+              </div>
+      
+        
+    </section>
+
+</div>
+
+
+<div id="ibm-footer">
+
+    <div class="ibm-columns">
+      <div class="ibm-col-1-1">
+                  <div class="ibm-footer-corporate-links">
+            <ul>
+                            <li id="ibm-truste-cp">
+                <a href="#" onclick="truste.eu.clickListener();return false;">Cookieの設定</a>
+              </li>
+            </ul>
+          </div>
+        
+                </div>
+    </div>
+
+</div>
+
+  </div>
+
+        </footer>
+        <div class="ibm-legalfooter-text" role="complementary" aria-label="Legal text" style="background-color: #ececec;">
+            <div class="ibm-fluid">
+                <div class="ibm-col-12-12">
+                    </p>
+                                            <p class="ibm-small"><p>本事例中に記載の肩書や数値、固有名詞等は初掲載当時のものであり、閲覧される時点では、変更されている可能性があることをご了承ください。<br />
+事例は特定のお客様での事例であり、すべてのお客様について同様の効果を実現することが可能なわけではありません。</p>
+
+<p>IBM、IBM ロゴ、ibm.com、IBM Garage、およびIBM Researchは、世界の多くの国で登録されたInternational Business Machines Corp. の商標です。他の製品名およびサービス名等は、それぞれIBMまたは各社の商標である場合があります。現時点でのIBM商標リストについては<a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="cd2d57f1-d352-41e8-a85c-6d66c25c79e2" href="https://www.ibm.com/legal/copytrade">www.ibm.com/legal/copytrade</a>をご覧ください。<br />
+他の会社名、製品名およびサービス名等はそれぞれ各社の商標です。</p>
+</p>
+                                    </div>
+            </div>
+        </div>
+     </div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"jp-ja\/","currentPath":"node\/3026356","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"ja-jp"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"ibm_ckeditor\/ibm_ckeditor_table_style,ibm_tmgmt_concurrency\/ibm_tmgmt_concurrency_messaging,ibm_tmgmt_concurrency\/ibm_tmgmt_concurrency_publisher,ibm_tmgmt_concurrency\/ibm_tmgmt_concurrency_publisher_finish,northstar\/case-studies,northstar\/font,northstar\/grid-fluid,northstar\/pull-quote-rtl,northstar\/shame,northstar\/stats,northstar\/tables,system\/base,tactic_codes\/tactic_codes","theme":"northstar","theme_token":null},"ajaxTrustedUrl":[],"ibm_tmgmt_concurrency_publisher":{"nid":"3026356","language":"ja-jp","submit_button":"#edit-submit","form":"#content-moderation-entity-moderation-form","route":"entity.node.canonical"},"user":{"uid":0,"permissionsHash":"38c521f2e73acba97a244c38ca669a8077be690dd45b09557a61cf00896ec935"}}</script>
+<script src="//1.cms.s81c.com/sites/default/files/js/js_PyrkuiB6vJyCAtpqjBUUTWaXxEu02yQMW2XSDuDpW1c.js"></script>
+<script src="//1.www.s81c.com/common/v18/drupal/js/tables.js" defer></script>
+<script src="//1.www.s81c.com/common/js/tactic.js" defer></script>
+<script src="//1.www.s81c.com/common/js/tacticbindlinks.js" defer></script>
+<script src="//1.cms.s81c.com/sites/default/files/js/js_W_bHvUagE3lFYZ970giSXaOtloIBMvGEE_Phl54d5lY.js"></script>
+
+      <script type="text/javascript"  src="/A_okGWWVVIpBeHn6VwGRDLYc/7DrE6X4SD5Yz/EEchPA/SBF/3K1YiUTcB"></script></body>
+</html>
