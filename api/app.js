@@ -10,6 +10,14 @@ const cors = require('cors');
 
 const app = express();
 
+var express = require( 'express' ),
+var cors = require( 'cors' );
+var option = {
+      origin: [ '*' ],  //. リクエスト元を配列で列記。面倒なら '*' とかでも可
+      optionSuccessStatus: 200
+    };
+app.use( cors( option ) );
+
 app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
