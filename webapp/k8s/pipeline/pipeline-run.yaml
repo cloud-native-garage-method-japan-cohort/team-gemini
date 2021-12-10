@@ -9,5 +9,4 @@ spec:
   workspaces:
     - name: pipeline-shared-data
       persistentVolumeClaim:
-        claimName: team-gemini-pvc
-
+        claimName: team-gemini-frontend-pvc

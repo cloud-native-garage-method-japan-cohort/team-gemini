@@ -1,11 +1,11 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: akpfs-el-route
+  name: akpfs-el-route-frontend
 spec:
   port:
     targetPort: http-listener
   to:
     kind: Service
-    name: el-akpfs
+    name: el-akpfs-frontend
     weight: 100
