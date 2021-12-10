@@ -1,11 +1,17 @@
 apiVersion: triggers.tekton.dev/v1alpha1
 kind: EventListener
 metadata:
-  name: akpfs
+  name: akpfs-frontend
 spec:
   serviceAccountName: tekton-triggers-sa
   triggers:
-    - bindings:
-        - ref: team-gemini-pipeline-triggerbinding
-      template:
-        ref: team-gemini-triggertemplate
+  - name: deploy-trigger-for-frontend
+    interceptors:
+    - github:
+        eventTypes: ["push"]
+    - cel:
+        filter: "body.repository.name == 'team-gemini' && body.ref.split('/')[2] == 'frontend'"
+    bindings:
+      - ref: team-gemini-pipeline-triggerbinding-frontend
+    template:
+      ref: team-gemini-triggertemplate-frontend

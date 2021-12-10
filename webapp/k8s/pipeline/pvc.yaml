@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   annotations:
     volume.beta.kubernetes.io/storage-provisioner: ibm.io/ibmc-block
-  name: team-gemini-pvc
+  name: team-gemini-frontend-pvc
   namespace: team-gemini
 spec:
   accessModes:
