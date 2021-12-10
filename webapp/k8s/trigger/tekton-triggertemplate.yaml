@@ -29,4 +29,4 @@ spec:
         workspaces:
           - name: pipeline-shared-data
             persistentVolumeClaim:
-              claimName: backend-pvc2
+              claimName: gemini-backend-pvc
