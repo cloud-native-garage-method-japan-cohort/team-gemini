@@ -15,6 +15,6 @@ const api = axios.create({
 export const queryDiscovery = async (searchText, category) => {
   return await api.post('/discovery/search', {
     searchText: searchText,
-    category,
+    category: category ? category : undefined,
   })
 }
