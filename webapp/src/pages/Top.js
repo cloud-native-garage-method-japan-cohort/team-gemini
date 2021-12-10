@@ -94,6 +94,8 @@ const Top = () => {
   const [searchedText, setSearchedText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [isDetailOpen, setIsDetailOpen] = useState(false);
+  const [selectedTitle, setSelectedTitle] = useState('');
+  const [selectedDescription, setSelectedDescription] = useState('');
 
   const classes = useStyles();
 
@@ -113,6 +115,11 @@ const Top = () => {
 
   const openDetailDialog = () => setIsDetailOpen(true);
   const closeDetailDialog = () => setIsDetailOpen(false);
+  const selectCard = (title, description) => {
+    setSelectedTitle(title);
+    setSelectedDescription(description);
+    openDetailDialog();
+  }
 
   const sampleItems = Array.from(Array(20).keys()).map(n => 
     <Grid item xs={12} sm={6} md={3} key={n}>
@@ -164,35 +171,29 @@ const Top = () => {
     return searchResults.map(e => {
       const { title, description, filename} = e;
       return (
-        <>
-          <Grid item xs={12} sm={6} md={3} key={keys.index++}>
-            <Card sx={{ minWidth: 575 }}>
-              <CardContent style={{textAlign: "left"}}>
-                <Link component="button" underline="always" className={classes.cardTitle} onClick={openDetailDialog}>
-                  {title}
-                </Link>
-                <Typography variant="body2">
-                  {`${description.substring(0, 100)}...`}
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button 
-                  size="small"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.open(`https://github.com/cloud-native-garage-method-japan-cohort/team-gemini/blob/master/resources/${filename}`, '_blank');
-                  }}
-                >
-                  Open Document
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-          <Dialog onClose={closeDetailDialog} aria-labelledby="detail-dialog" open={isDetailOpen}>
-            <DialogTitle id="detail-dialog">{title}</DialogTitle>
-            <Typography variant="body1" component="p" className={classes.detailText}>{description}</Typography>
-          </Dialog>
-        </>
+        <Grid item xs={12} sm={6} md={3} key={keys.index++}>
+          <Card sx={{ minWidth: 575 }}>
+            <CardContent style={{textAlign: "left"}}>
+              <Link component="button" underline="always" className={classes.cardTitle} onClick={() => selectCard(title, description)}>
+                {title}
+              </Link>
+              <Typography variant="body2">
+                {`${description.substring(0, 100)}...`}
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button 
+                size="small"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open(`https://github.com/cloud-native-garage-method-japan-cohort/team-gemini/blob/master/resources/${filename}`, '_blank');
+                }}
+              >
+                Open Document
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
       )
     });
   }
@@ -229,6 +230,10 @@ const Top = () => {
       <Grid container spacing={1} className={classes.cardFilename}>
         {renderSearchResults()}
       </Grid>
+      <Dialog onClose={closeDetailDialog} aria-labelledby="detail-dialog" open={isDetailOpen}>
+        <DialogTitle id="detail-dialog">{selectedTitle}</DialogTitle>
+        <Typography variant="body1" component="p" className={classes.detailText}>{selectedDescription}</Typography>
+      </Dialog>
     </Layout>
   )
 }
